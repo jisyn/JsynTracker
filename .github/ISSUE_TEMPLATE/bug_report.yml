@@ -1,0 +1,50 @@
+name: Bug Report
+description: Report a problem with J'syn's Tracker
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve J'syn's Tracker.
+
+  - type: input
+    id: version
+    attributes:
+      label: App Version
+      placeholder: "Beta v1.0"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the issue clearly.
+      placeholder: "Tell me what broke or looked wrong."
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: false
+
+  - type: textarea
+    id: debug
+    attributes:
+      label: Debug Info / Error Log
+      description: Use Settings > Data & Logs > Export Debug Info, then paste relevant info here if comfortable.
+      render: shell
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Drag screenshots here if the issue is visual.
+    validations:
+      required: false
