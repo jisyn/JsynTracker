@@ -1,0 +1,7 @@
+Copyright © 2026 Jisyn. All rights reserved.
+
+J'syn's Tracker, including its source code, application name, logo, icon,
+artwork, badges, themes, design, installer, and other assets, may not be copied,
+modified, redistributed, sold, republished, or reused without written permission.
+
+Official releases may be downloaded and used from this repository.
